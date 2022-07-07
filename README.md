@@ -1,2 +1,7 @@
 # Route-Navigation
-A system that is used to find the optimal path between Palestinian cities using search algorithms
+
+
+This project implements a supporting system that is used to find the optimal path between Palestinian cities. The path finder feature helps to find the path between two cities within limited defined area. This approach is very useful for the people who are not familiar with the roads and the connection points between cities in Palestine. The implemented system represents cities as nodes in a graph, and considers the roads connecting cities with each other as branches in a graph. Each branch holds a weighted value that represents the car driving distance to move between the two connected nodes (cities).
+
+
+Artificial intelligence has been used in the process of finding the optimal path, and that was done with the help of three searching methods which are: Breadth First Search, Depth First Search and A* search. The first two methods are classified as uninformed search, whereas the third one belongs to the informed search methods. What specializes the A* technique is the heuristic function which estimates the cost from any node to the target node, the used heuristics are the aerial distance and the walking distance, which are both admissible heuristics resulting in giving the optimal path. The implemented system enables the user to choose whether one or two targets from 19 different cities in Palestine. In addition to choosing the desired searching method from a friendly user interface that displays the optimal path, in addition to the cost of reaching the target city.
